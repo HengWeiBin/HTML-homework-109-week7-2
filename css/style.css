@@ -26,6 +26,10 @@ nav {
 	height: 100px;
 }
 
+.navbar-brand {
+	padding: 0;
+}
+
 .navBtn{
 	width: 120px;
 	background-position: center;
@@ -69,11 +73,17 @@ nav {
 .serviceBtn::before{content: "SERVICE";}
 
 .main{
-	height: 40vw;
+	height: 70vw;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url(../img/Salon\ \(7\).jpg);
+}
+
+@media (min-width: 376px){
+	.main{
+		height: 40vw;
+	}
 }
 
 .main .row{
@@ -81,9 +91,14 @@ nav {
 }
 
 .main .main-text{
-	margin-left: 30px;
 	background-color: RGB(242, 228, 201);
 	background-color: RGBA(242, 228, 201, 70%);
+}
+
+@media (min-width: 768px){
+	.main .main-text{
+		margin-left: 30px;
+	}
 }
 
 .main .main-text p {
@@ -91,8 +106,8 @@ nav {
 	margin: auto;
 }
 
-#service .container-fluid{
-	width: 55%;
+#service .container{
+	width: 80%;
 }
 
 .card{
