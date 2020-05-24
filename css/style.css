@@ -23,7 +23,7 @@ nav {
 }
 
 .navbar-brand img {
-	height: 100px;
+	height: 60px;
 }
 
 .navbar-brand {
@@ -36,6 +36,10 @@ nav {
 }
 
 @media (min-width: 1000px){
+
+	.navbar-brand img {
+		height: 100px;
+	}
 
 	.navBtn img {
 		height: 50px;
